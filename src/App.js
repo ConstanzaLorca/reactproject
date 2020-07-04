@@ -1,24 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import SquareFiles from './SquareFiles'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-dissapointed but not surprised ajajaaj        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+
+  render() {
+
+     return <SquareFiles />
+    
+  }
 }
 
-export default App;
+export default App
